@@ -17,3 +17,8 @@
 
 # ImageProcessor DiskCache 
 **/App_Data/cache/
+solution/.vs/
+solution/packages/
+solution/Umbraco7-7-1/bin/
+solution/Umbraco7-7-1/obj/
+solution/Umbraco7-7-1/App_Data/Models/
