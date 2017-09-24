@@ -1,0 +1,13 @@
+﻿<div class="umb-editor" ng-controller="tooorangey.XPathOfLeastResistanceController as vm">
+    <umb-load-indicator ng-if="vm.loading">
+    </umb-load-indicator>
+    <div ng-if="!vm.loading">
+    <span ng-bind="vm.pathInfo.xPath"></span> <br /><br /> A little friendly <a class="btn btn-primary" ng-click="vm.showAdvice()">XPath Advice</a>
+    </div>
+        <umb-overlay ng-if="vm.overlay.show"
+                 model="vm.overlay"
+                 view="vm.overlay.view"
+                 title="vm.overlay.title"
+                 position="right">
+    </umb-overlay>
+</div>

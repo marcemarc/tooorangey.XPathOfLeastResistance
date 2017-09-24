@@ -1,0 +1,14 @@
+﻿{
+    propertyEditors: [
+     {
+        alias: "tooorangey.XPathOfLeastResistance",
+        name: "XPath of Least Resistance",
+        editor: {	                                        
+        view: "~/App_Plugins/tooorangey.XPathOfLeastResistance/xpathofleastresistance.html"
+        }
+    }],
+   javascript: [
+   '~/App_Plugins/tooorangey.XPathOfLeastResistance/xpathofleastresistance.controller.js',
+   ],
+    css: ['~/App_Plugins/tooorangey.XPathOfLeastResistance/xpathofleastresistance.css']
+}
