@@ -31,7 +31,7 @@
         contentResource.getByIds(vm.pathInfo.pathIds).then(function (pathContentArray) {
             console.log(pathContentArray);
             //get the documenttype alias for the path
-            vm.pathInfo.xPath = "root/" + $.map(pathContentArray, function (content) { return content.contentTypeAlias }).join('/');
+            vm.pathInfo.xPath = "/root/" + $.map(pathContentArray, function (content) { return content.contentTypeAlias }).join('/');
             vm.overlay.pathInfo = vm.pathInfo;
             vm.status.loading = false;
    });
